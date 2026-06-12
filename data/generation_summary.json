@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-06-12T09:14:59.214561+00:00",
+  "parameters": {
+    "vehicles": 50,
+    "duration_min": 90,
+    "hz": 1.0,
+    "seed": 42,
+    "start": "2026-06-11T00:00:00Z"
+  },
+  "stats": {
+    "rows_written": 260309,
+    "missing_fields": 2607,
+    "outliers": 717,
+    "malformed": 539,
+    "duplicates": 532,
+    "signal_gap_rows_dropped": 10223,
+    "fault_rows": 3462
+  },
+  "files": {
+    "telemetry": "data/telemetry.csv",
+    "fleet_metadata": "data/fleet_metadata.csv"
+  }
+}
