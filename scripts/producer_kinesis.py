@@ -52,4 +52,4 @@ def send_to_kinesis(limit: int = 20, delay_seconds: float = 0.2) -> None:
 
 
 if __name__ == "__main__":
-    send_to_kinesis(limit=20, delay_seconds=0.2)
+    send_to_kinesis(limit=20, delay_seconds=0.05)
