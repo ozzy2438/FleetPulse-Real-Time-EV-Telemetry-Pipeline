@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-09-03T06:57:20.956416+00:00",
+  "input": "data/telemetry.csv",
+  "records_processed": 258753,
+  "records_trusted": 233107,
+  "records_quarantined": 25646,
+  "clean_data_rate_pct": 90.09,
+  "quarantine_reasons": {
+    "MISSING_FIELD": 15472,
+    "OUT_OF_RANGE": 6905,
+    "DUPLICATE_RECORD": 2064,
+    "TYPE_ERROR": 1205
+  },
+  "fleet_health": {
+    "HEALTHY": 205137,
+    "WATCH": 21820,
+    "CRITICAL": 6150
+  },
+  "fleet_health_pct": {
+    "HEALTHY": 88.0,
+    "WATCH": 9.36,
+    "CRITICAL": 2.64
+  },
+  "fault_codes": {
+    "F-BAT-LOW": 5860,
+    "F-MOT-TEMP": 5536,
+    "F-TPMS-01": 918,
+    "F-BRAKE-WEAR": 669,
+    "F-GPS-DRIFT": 413,
+    "F-INV-COMM": 278,
+    "F-COOL-PUMP": 252,
+    "F-CHG-INTERLOCK": 62
+  },
+  "top_critical_vehicles": {
+    "FP-0016": 1133,
+    "FP-0033": 427,
+    "FP-0038": 365,
+    "FP-0045": 352,
+    "FP-0048": 349,
+    "FP-0021": 333,
+    "FP-0034": 332,
+    "FP-0001": 329,
+    "FP-0023": 279,
+    "FP-0046": 233
+  },
+  "thresholds": {
+    "motor_temp_warn_c": 95.0,
+    "motor_temp_critical_c": 110.0,
+    "battery_warn_pct": 20.0,
+    "battery_critical_pct": 10.0
+  }
+}

@@ -1,20 +1,22 @@
 {
-  "generated_at": "2026-06-12T09:14:59.214561+00:00",
+  "generated_at": "2026-09-03T06:57:19.850863+00:00",
   "parameters": {
     "vehicles": 50,
-    "duration_min": 90,
-    "hz": 1.0,
+    "duration_min": 480,
+    "hz": 0.2,
     "seed": 42,
-    "start": "2026-06-11T00:00:00Z"
+    "start": "2026-06-11T06:00:00Z"
   },
   "stats": {
-    "rows_written": 260309,
-    "missing_fields": 2607,
-    "outliers": 717,
-    "malformed": 539,
-    "duplicates": 532,
-    "signal_gap_rows_dropped": 10223,
-    "fault_rows": 3462
+    "rows_written": 258753,
+    "missing_fields": 15472,
+    "outliers": 5594,
+    "malformed": 2516,
+    "duplicates": 2064,
+    "signal_gap_rows_dropped": 31311,
+    "fault_rows": 15369,
+    "overheat_rows": 1546,
+    "critical_battery_rows": 5239
   },
   "files": {
     "telemetry": "data/telemetry.csv",
